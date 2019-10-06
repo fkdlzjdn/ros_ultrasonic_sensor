@@ -1,14 +1,11 @@
 #! /usr/bin/env python
 
 import time
-import roslib; roslib.load_manifest('ur_driver')
 import rospy
 import actionlib
 
 
-from control_msgs.msg import *
-from trajectory_msgs.msg import *
-from sensor_msgs.msg import JointState
+
 from std_msgs.msg import Float32
 from math import pi
 from math import *
@@ -16,17 +13,16 @@ from math import *
 import serial
 from numpy import * 
 
-import matplotlib.pyplot as plt
+
 from math import * 
 import threading
 
 from geometry_msgs.msg import Quaternion, Vector3, PoseStamped, Point, Pose
 from sensor_msgs.msg import Imu
-from ros_myo.msg import MyoArm, MyoPose, EmgArray
+
 
  
 
-myo_data = 0
 
 
 sensor_data = 450     # A box that receives sensor data
@@ -121,7 +117,7 @@ def process():
 		time.sleep(0.1)
 			
 		cnt += 1
-		print(Avg_data_box)
+		print(Avg_data_box[-1])
 
 
 def main():
