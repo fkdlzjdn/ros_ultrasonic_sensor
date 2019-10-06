@@ -16,6 +16,10 @@ Arduino : Arduino Mega 2560
 Ultrasonic Sensor : HC-SRO4 
 
 # Connected Arduino with ultrasonic sensor
+![그림1](https://user-images.githubusercontent.com/39592150/66267616-f0c48100-e86d-11e9-83b3-2f8c8dd20d93.png)
+
+
+
 
 # How to working
 you have to complete connecting hardware .
