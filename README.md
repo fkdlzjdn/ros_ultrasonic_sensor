@@ -6,13 +6,14 @@ We can process Arduino, which receives data from ultrasonic sensors, in conjunct
 
 # Message and Topic 
 chatter : Getting data from Arduino
+
 topic_data : Getting processed data from node 'read_sensor.py'
 
-# Environment 
+# Environment and Equipment
 OS : Installed ROS Kame kinetic on Linux Ubuntu 16.04 ver
 
-# Equipment
 Arduino : Arduino Mega 2560
+
 Ultrasonic Sensor : HC-SRO4 
 
 # Connected Arduino with ultrasonic sensor
